@@ -148,6 +148,7 @@ a {
 
 img {
   width: 100%;
+  border-radius: 7px;
 }
 
 hr {
@@ -170,7 +171,7 @@ h3 {
   margin: 2rem 0;
 }
 
-h2 {
+.title {
   font-size: 1.4rem;
   font-weight: 600;
   margin-bottom: 0.8rem;
@@ -285,7 +286,7 @@ body {
 
 /* BLOG PAGE */
 
-.section-1 {
+.blog-1 {
   margin-top: 1rem;
 }
 
@@ -295,13 +296,12 @@ body {
   margin: 2%;
   vertical-align: top;
 }
-.btn {
+
+.btn-read {
   background-color: #57a708;
   color: white;
   padding: 0.5rem 1rem;
   border-radius: 15px;
-  display: inline-block;
-  margin-top: 0.6rem;
 }
 
 .text {
@@ -309,6 +309,7 @@ body {
   line-height: 1.5;
   text-align: justify;
   color: grey;
+  margin-bottom: 1rem;
 }
 
 .intro {
@@ -317,23 +318,17 @@ body {
 
 /* Section-2 */
 
-section-2 {
-  font-size: 0;
-}
-
 .hero {
   width: 45%;
   margin: 2%;
   vertical-align: top;
 }
 
-.heading {
+.hero .title {
   margin-top: 1rem;
 }
 
-.btn-1 {
-  margin-top: 0.6rem;
+.btn-learn {
   color: #57a708;
   text-decoration: underline;
-  display: inline-block;
 }
