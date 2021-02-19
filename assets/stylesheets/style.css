@@ -1,134 +1,4 @@
-/* Eric Mayers Reset */
-
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
-body {
-  line-height: 1;
-}
-ol,
-ul {
-  list-style: none;
-}
-blockquote,
-q {
-  quotes: none;
-}
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
+/* My reset */
 
 *,
 ::before,
@@ -138,9 +8,12 @@ table {
   box-sizing: border-box;
 }
 
-/* Customs Styles */
-
 /* Global Styles */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 5rem;
+}
 
 a {
   text-decoration: none;
@@ -148,12 +21,12 @@ a {
 
 img {
   width: 100%;
-  border-radius: 7px;
+  border-radius: 4px;
 }
 
 hr {
   border: none;
-  border-bottom: 2px dotted gray;
+  border-bottom: 2px dotted #808080;
   margin: 3rem 0;
 }
 
@@ -189,18 +62,10 @@ h3 {
   margin: 0 auto;
 }
 
-#green {
-  color: #abdf58;
-}
-
 .border {
-  border: 2px solid black;
+  border: 2px solid #000;
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  padding-bottom: 5rem;
-}
 .center {
   text-align: center;
 }
@@ -216,10 +81,15 @@ body {
   padding: 1rem 0;
   background-color: #1f1f22;
 }
+
 .header a {
-  color: white;
+  color: #fff;
   margin-right: 1rem;
   font-weight: 700;
+}
+
+.header .green {
+  color: #57a708;
 }
 
 /* Exercise One */
@@ -229,7 +99,7 @@ body {
   width: 9rem;
   background-color: #e7a36b;
   border: 0.7rem solid #5959eb;
-  outline: 0.5rem solid black;
+  outline: 0.5rem solid #000;
 }
 
 .box-wrapper {
@@ -245,10 +115,11 @@ body {
   height: 15px;
   width: 15px;
   border-radius: 50%;
-  background-color: red;
+  background-color: #f00;
   vertical-align: middle;
   margin-left: 0.7rem;
 }
+
 .marker-container span:nth-child(even) {
   margin-right: 1.3rem;
   font-size: 1.2rem;
@@ -259,20 +130,22 @@ body {
 }
 
 .blue {
-  background-color: blue;
+  background-color: #00f;
 }
+
 .black {
-  background-color: black;
+  background-color: #000;
 }
+
 .yellow {
-  background-color: yellow;
+  background-color: #ff0;
 }
 
 /* Exercise2 */
 
 .box-outer {
   width: 660px;
-  border: 2px solid black;
+  border: 2px solid #000;
   font-size: 0;
   padding: 4px;
 }
@@ -299,16 +172,20 @@ body {
 
 .btn-read {
   background-color: #57a708;
-  color: white;
+  color: #fff;
   padding: 0.5rem 1rem;
-  border-radius: 15px;
+  border-radius: 4px;
+}
+
+.art-1 .text {
+  margin-bottom: 2rem;
 }
 
 .text {
   font-size: 0.8rem;
   line-height: 1.5;
   text-align: justify;
-  color: grey;
+  color: #808080;
   margin-bottom: 1rem;
 }
 
@@ -329,6 +206,6 @@ body {
 }
 
 .btn-learn {
-  color: #57a708;
+  color: #179e44;
   text-decoration: underline;
 }
