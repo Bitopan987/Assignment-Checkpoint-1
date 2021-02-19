@@ -1,0 +1,336 @@
+/* Eric Mayers Reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Customs Styles */
+
+/* Global Styles */
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 2rem 0;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 2rem 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+/* Modular Classes */
+
+.container {
+  max-width: 664px;
+  margin: 0 auto;
+}
+
+.container-1 {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#green {
+  color: #abdf58;
+}
+
+.border {
+  border: 2px solid black;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 5rem;
+}
+.center {
+  text-align: center;
+}
+
+hr {
+  border: none;
+  border-bottom: 2px dotted gray;
+  margin: 3rem 0;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+/* Header */
+
+.header {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #1f1f22;
+}
+.header a {
+  color: white;
+  margin-right: 1rem;
+  font-weight: 700;
+}
+
+/* Exercise One */
+
+.box {
+  height: 9rem;
+  width: 9rem;
+  background-color: #e7a36b;
+  border: 0.7rem solid #5959eb;
+  outline: 0.5rem solid black;
+}
+
+.box-wrapper {
+  background-color: #bff36c;
+  padding: 1.5rem;
+  border-radius: 12px;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+
+.circle {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: red;
+  vertical-align: middle;
+  margin-left: 0.7rem;
+}
+.marker-container span:nth-child(even) {
+  margin-right: 1.3rem;
+  font-size: 1.2rem;
+}
+
+.pink {
+  background-color: #eb546d;
+}
+
+.blue {
+  background-color: blue;
+}
+.black {
+  background-color: black;
+}
+.yellow {
+  background-color: yellow;
+}
+
+/* Exercise2 */
+
+.box-outer {
+  width: 660px;
+  border: 2px solid black;
+  font-size: 0;
+  padding: 4px;
+}
+.box-inner {
+  width: 200px;
+  height: 180px;
+  background-color: #bff36c;
+  display: inline-block;
+  margin: 8px;
+}
+
+/* BLOG PAGE */
+
+.section-1 {
+  margin-top: 1rem;
+}
+
+.img-wrapper,
+.art-1 {
+  width: 45%;
+  margin: 2%;
+  vertical-align: top;
+}
+.btn {
+  background-color: #57a708;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+  display: inline-block;
+  margin-top: 0.6rem;
+}
+
+.text {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  text-align: justify;
+  color: grey;
+}
+
+.intro {
+  max-width: 900px;
+}
+
+/* Section-2 */
+
+section-2 {
+  font-size: 0;
+}
+
+.hero {
+  width: 45%;
+  margin: 2%;
+  vertical-align: top;
+}
+
+.heading {
+  margin-top: 1rem;
+}
+
+.btn-1 {
+  margin-top: 0.6rem;
+  color: #57a708;
+  text-decoration: underline;
+  display: inline-block;
+}
